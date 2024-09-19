@@ -23,7 +23,7 @@ def main():
 
     # Send a WhatsApp Message to a Contact at 9:30 AM
     try:
-        pywhatkit.sendwhatmsg(RECIPIENT_NUMBER, message, 22, 44)
+        pywhatkit.sendwhatmsg(RECIPIENT_NUMBER, message, 9, 30)
     except:
         print("An Error Occurred!")
 
