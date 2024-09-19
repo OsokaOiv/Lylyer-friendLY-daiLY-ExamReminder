@@ -40,7 +40,7 @@ def handle_txt_files(file):
 
     # Message to be Sent
     if days > 1:
-        message += "Noch " + days + " Tage bis zur " + name_of_exam + " Klausur!\n"
+        message += "Noch " + str(days) + " Tage bis zur " + name_of_exam + " Klausur!\n"
     elif days == 1:
         message += "Morgen ist die " + name_of_exam + " Klausur!\n"
 
